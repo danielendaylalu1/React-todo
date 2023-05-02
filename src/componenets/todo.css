@@ -1,0 +1,33 @@
+li{
+    margin-bottom: 0.5rem;
+    width: 100%;
+    border-radius: 5px;
+    padding: 2rem 0 2rem 1.5rem;
+    box-shadow:0 5px 10px rgba(0, 0, 0, 0.25) ;
+    list-style-type: none;
+}
+li input{
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-top: 0;
+    cursor: pointer;
+}
+li input:checked~.todo-text{
+    text-decoration: line-through;
+}
+li .todo-text{
+    word-wrap: break-word;
+    margin:0 1rem ;
+}
+li .todo-date{
+    float: right;
+    margin-right: 1rem;
+}
+li .todo-icon{
+    float: right;
+    margin-right: 1.5rem;
+    cursor: pointer;
+    color: #396631;
+}
+
